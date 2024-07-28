@@ -1,0 +1,3 @@
+C:/Users/jackp/vcpkg/textbook/build/CMakeFiles/TextbookOpenGL.dir
+C:/Users/jackp/vcpkg/textbook/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jackp/vcpkg/textbook/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\JACKP\VCPKG\TEXTBOOK\BUILD\CMAKEFILES\41F6F549FB4D45D6E90AE3115D9D197E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jackp/vcpkg/textbook -BC:/Users/jackp/vcpkg/textbook/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jackp/vcpkg/textbook/build/TextbookOpenGL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
